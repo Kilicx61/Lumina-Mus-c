@@ -1,18 +1,61 @@
-# 🎵 LCC (Lumina Music)
+# LCC Music
 
-Lumina Music, masaüstünde tamamen premium, sınırsız ve özgür bir müzik dinleme deneyimi sunmak amacıyla geliştirilmiş modern bir müzik çalar uygulamasıdır. Spotify ve YouTube'un en kullanışlı yönlerini bir araya getirerek, kullanıcılara istedikleri tüm şarkıları arama, yüksek kalitede arka planda dinleme ve klipleriyle birlikte kalıcı olarak indirebilme özgürlüğü tanır.
-
-## 🌟 Öne Çıkan Özellikler
-
-* **Sınırsız Keşif ve Dinleme:** İstediğiniz şarkıyı saniyeler içinde aratın ve YouTube altyapısı sayesinde anında (reklamsız) dinlemeye başlayın.
-* **Premium Tasarım (Dark UI):** Glassmorphism efektleri, modern animasyonlar ve şık geçişlerle bezenmiş, göz yormayan, üst düzey bir "Karanlık Tema" deneyimi.
-* **Ses Spektrum Görselleştirici:** Çalan müziğin ritmine göre hareket eden, şık ve animasyonlu ses spektrum çubukları (Visualizer).
-* **Kolay İndirme Özgürlüğü:** Beğendiğiniz herhangi bir müziği tek tıkla ses dosyası (MP3) veya video (MP4) formatında bilgisayarınıza indirebilirsiniz. 
-* **Spotify Entegrasyonu:** Favori Spotify linklerinizi uygulamaya yapıştırarak listelerinizi Lumina'ya aktarabilir, bu şarkıları dinleyebilir veya indirebilirsiniz.
-* **Toplu Playlist İndirme:** Kendi oluşturduğunuz ya da dışarıdan aktardığınız bir playlistteki "Tüm" müzikleri tek bir tuşla, sırayla ve güvenli bir şekilde bilgisayarınıza topluca indirebilirsiniz.
-* **Akıllı Oynatma ve Otomatik Geçiş:** Çalma listeniz (queue) bittiğinde müzik keyfiniz bölünmez, mevcut şarkıya benzer ve uygun müzikler otomatik olarak bulunup çalmaya devam eder.
-* **Kolay Klasör Yönetimi:** Şarkıların nereye indirileceğini seçebilir ve indirdiğiniz şarkılara uygulama içinden anında ulaşabilirsiniz.
+Masaüstünde tamamen premium, minimalist ve özgür bir müzik dinleme deneyimi sunmak amacıyla geliştirilmiş modern bir müzik çalar uygulamasıdır. Yüksek kaliteli ses motoru, şık görsel animasyonları ve gelişmiş kütüphane entegrasyonlarıyla müzik keyfini en üst seviyeye taşımak için tasarlanmıştır.
 
 ---
 
-> *Lumina Music, tamamen kişisel ve açık kaynaklı bir masaüstü (Electron.js) müzik istemcisidir.*
+## Öne Çıkan Özellikler
+
+* **Minimalist ve Premium Tasarım (Warm Charcoal UI):**
+  Yeni nesil tasarım trendlerine uygun oval hatlı yüzen paneller, modern tipografi eşleşmesi (serif başlıklar için Playfair Display, gövde metinleri için Urbanist) ve göz yormayan, lüks koyu renk paleti.
+  
+* **Gelişmiş Çalma Listesi Entegrasyonu:**
+  Spotify listelerini veya diğer çevrimiçi liste bağlantılarını doğrudan uygulamaya yapıştırarak saniyeler içinde LCC Music kütüphanesine entegre etme ve bu listeleri güncel tutma imkanı.
+
+* **Karaoke Tarzı Şarkı Sözleri:**
+  Şarkının akışıyla tam senkronize, yumuşak geçiş efektlerine ve dinamik altın sarısı parlamalara sahip modern interaktif şarkı sözü ekranı.
+
+* **Çevrimdışı Mod ve Akıllı Önbellek:**
+  Dinlenen şarkıları akıllı önbellek mekanizması sayesinde diskte depolayarak internet bağlantısı olmasa dahi kesintisiz, akıcı çevrimdışı oynatma desteği.
+
+* **Uzaktan Web Kontrolcüsü (Remote Controller):**
+  Uygulamanın başlattığı yerel web sunucusu sayesinde, aynı ağdaki mobil cihazlardan veya diğer bilgisayarlardan çalan şarkıyı değiştirme, ses düzeyini ayarlama ve kütüphanede arama yapma kolaylığı.
+
+* **Sistem Tepsisi (Close-to-Tray) Desteği:**
+  Uygulama penceresi kapatıldığında müzik oynatımı kesintiye uğramaz; arka planda çalışmaya devam eder ve sistem tepsisindeki simge aracılığıyla kolayca yönetilebilir.
+
+* **Discord Rich Presence Entegrasyonu:**
+  Dinlenen şarkıyı, kalan süreyi ve albüm görsellerini gerçek zamanlı olarak Discord profilinde zengin bir durum olarak yayınlama özelliği.
+
+* **Gelişmiş İndirme Yöneticisi:**
+  Dilediğiniz şarkıyı veya tüm bir çalma listesini toplu olarak yüksek kaliteli ses (MP3) ya da video (MP4) formatlarında bilgisayara indirme ve kayıt klasörlerini kolayca yönetme imkanı.
+
+---
+
+## Küresel Medya Kısayolları
+
+Uygulama arka planda veya simge durumundayken klavyedeki medya tuşlarını kullanarak oynatmayı kontrol edebilirsiniz:
+- Oynat / Duraklat tuşu
+- Sonraki Şarkı tuşu
+- Önceki Şarkı tuşu
+
+---
+
+## Kurulum ve Çalıştırma
+
+Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+
+1. **Bağımlılıkları Yükleyin:**
+   ```bash
+   npm install
+   ```
+
+2. **Uygulamayı Başlatın:**
+   ```bash
+   npm start
+   ```
+
+3. **Üretim Sürümü Oluşturun (Windows x64):**
+   ```bash
+   npm run dist
+   ```
